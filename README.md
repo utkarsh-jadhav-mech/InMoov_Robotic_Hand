@@ -1,44 +1,103 @@
-This project is a 3D-printed InMoov Robotic Hand designed and assembled as a low-cost humanoid robotic system. The hand is inspired by the open-source InMoov project and is controlled using servo motors, Arduino, and mechanical linkages to replicate human finger movements.
+🤖 InMoov Robotic Hand Project
+📌 Project Overview
 
-The project focuses on combining mechanical design, electronics, and basic programming to achieve real-time hand motion control.
+The InMoov Robotic Hand is an open-source, 3D-printed robotic system designed for learning robotics, prosthetics, and mechanical design.
+This project replicates human hand movements using servo motors controlled by Arduino, making it a low-cost and educational robotic solution.
 
-⚙️ Components Used
-Mechanical
-3D Printed Hand Parts (PLA/ABS)
-Nylon string / fishing line (tendon mechanism)
-Springs (finger return mechanism)
-Fasteners (nuts, bolts, screws)
+It integrates:
 
+Mechanical design (3D printing + assembly)
+Embedded systems (Arduino control)
+Actuation system (servo-based motion)
+📷 Project Preview
+<p align="center"> <img src="Images_And_Video/Robotic%20Arm.png" width="450"/> </p>
+🧩 Required Components
+🔧 Mechanical Parts
+3D Printed Hand Components (PLA/ABS)
+Nylon string / fishing line (tendon system)
+Springs for finger return mechanism
+Screws, nuts, and fasteners
 ⚡ Electronics
 Arduino UNO / Nano
-Servo Motors (SG90 / MG90S / similar)
-Bluetooth Module (HC-05 / HC-06) (optional for wireless control)
-External Power Supply
+Servo Motors (MG996R / SG90 / equivalent)
+5V External Power Supply
+Jumper wires
+🛠 Tools Required
+3D Printer
+Screwdriver set
+Soldering kit (optional)
+Cutting pliers
+🖨 3D Printing the Parts
+Download STL files from:
+👉 https://inmoov.fr/hand-and-forarm/
+Recommended print settings:
+Material: PLA / ABS
+Layer height: 0.1 – 0.2 mm
+Infill: 20–30%
+Strong bed adhesion required
+Print all parts carefully and clean supports after printing.
+⚡ Circuit Overview
 
-Working Principle
-Each finger is controlled using a servo motor
-Motion is transmitted using string-based tendon mechanism
-Arduino sends PWM signals to control servo angles
-Fingers move in coordination to simulate human hand gestures
-Optional Bluetooth control allows wireless operation via mobile app
+Each servo motor is connected to the Arduino as follows:
 
-InMoov_Robotic_Hand/
-│
-├── CAD_Designs/          # 3D model files (.STL / .SLDPRT)
-├── Arduino_Code/         # Servo control programs
-├── Assembly_Guide/       # Step-by-step assembly instructions
-├── Images/               # Project photos
-└── README.md
-
-<img width="1919" height="1042" alt="Robotic Arm" src="https://github.com/user-attachments/assets/5b3f7ea7-1944-4ca8-b229-7d6ea4e90b08" />
-
-📈 Future Improvements
-EMG sensor-based control (muscle signals)
+Signal Pins → Digital PWM pins (e.g., 9, 10, 11, 12, 13)
+VCC → External 5V power supply
+GND → Common ground
+Simple Connection Logic:
+One servo per finger
+Arduino controls angle using PWM signals
+External power ensures stable servo operation
+🔩 Assembly Instructions
+1. Finger Assembly
+Attach servo motors at each finger base
+Connect tendon strings for motion control
+Ensure smooth joint movement
+2. Palm Assembly
+Mount all fingers to palm structure
+Secure servo alignment properly
+3. Wrist Integration
+Attach wrist servo (if applicable)
+Connect movement mechanism
+4. Wiring
+Connect all servos to Arduino
+Ensure proper power distribution
+Verify ground is common for all components
+🧪 Testing & Calibration
+Initial Test
+Power ON Arduino and check servo response
+Ensure all fingers move correctly
+Calibration
+Adjust servo angles in Arduino code
+Fine-tune finger range of motion
+Reduce mechanical stress in joints
+📈 Key Features
+Human-like finger movement
+Low-cost robotic design
+Modular and scalable structure
+Arduino-based control system
+3D printable mechanical system
+📚 Learning Outcomes
+Robotics mechanism design
+Servo motor control using Arduino
+3D CAD modeling & manufacturing
+Embedded systems integration
+Mechanical linkage systems (tendon-based motion)
+🚀 Future Improvements
+Bluetooth / Mobile app control
+EMG (muscle signal) integration
 AI-based gesture recognition
-Stronger servo motors for higher load
-Full robotic arm integration
+Full robotic arm expansion
+Stronger industrial-grade servos
+🤝 Contributing
 
-👨‍💻 Author
+Contributions are welcome.
+Feel free to fork this repository and submit pull requests for improvements.
+
+📄 License
+
+This project is licensed under the MIT License.
+
+⭐ Author
 
 Utkarsh Jadhav
 Mechanical Engineering Student

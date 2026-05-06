@@ -1,20 +1,27 @@
 ### InMoov Robotic Hand Project - README
-
-This project involves the design and development of a 3D-printed robotic hand inspired by the InMoov platform. It uses servo motors, Arduino control, and a tendon-driven mechanism to achieve human-like finger movement.
-
-<img width="1919" height="1042" alt="Robotic Arm" src="https://github.com/user-attachments/assets/0352f695-f1af-4e5b-8eee-2c6df70470ca" />
+<br>
+<img width="1919" height="1042" alt="Robotic Arm" src="https://github.com/user-attachments/assets/5d65cbb5-948e-4974-9447-d4a007506d26" />
+<br>
 
 ## 📚 Table of Contents
-1. [Project Overview](#project-overview)
-2. [Required Components](#required-components)
-3. [3D Printing the Parts](#3d-printing-the-parts)
-4. [Circuit Diagram](#circuit-diagram)
-5. [Assembly Instructions](#assembly-instructions)
-6. [Testing and Calibration](#testing-and-calibration)
-7. [Additional Resources](#additional-resources)
-8. [Contributing](#contributing)
-9. [License](#license)
-10. [Final Note](Final-Note)
+1. [Project Summary](#project-summary)  
+2. [Project Overview](#project-overview)  
+3. [Required Components](#required-components)  
+4. [3D Printing the Parts](#3d-printing-the-parts)  
+5. [Circuit Diagram](#circuit-diagram)  
+6. [Assembly Instructions](#assembly-instructions)  
+7. [Testing and Calibration](#testing-and-calibration)  
+8. [Results](#results)  
+9. [Additional Resources](#additional-resources)  
+10. [Contributing](#contributing)  
+11. [License](#license)  
+12. [Final Note](#final-note)  
+
+## Project Summary
+
+The InMoov Robotic Hand is a 3D-printed, servo-driven system designed to replicate human hand movements. The project integrates CAD design (SolidWorks), Arduino-based control, and tendon-driven actuation to achieve controlled finger motion, demonstrating key concepts of robotics and mechatronics.
+
+Designed and developed a 3D-printed InMoov robotic hand using SolidWorks and Arduino-based servo control. The system utilizes a tendon-driven mechanism to replicate human finger movements, showcasing practical skills in mechanical design, electronics integration, and embedded control systems.
 
 ## Project Overview
 
@@ -97,7 +104,13 @@ Basic connection of servo motors with Arduino:
 1. Power ON the system  
 2. Check individual servo movement  
 3. Adjust servo angles in Arduino code  
-4. Calibrate finger positions for smooth motion  
+4. Calibrate finger positions for smooth motion
+
+## Results
+- Successfully designed and assembled a functional robotic hand
+- Achieved controlled finger movement using servo motors
+- Implemented Arduino-based control system
+- Demonstrated working prototype with synchronized motion
 
 ## Additional Resources
 

@@ -13,9 +13,10 @@
 7. [Testing and Calibration](#testing-and-calibration)  
 8. [Results](#results)  
 9. [Additional Resources](#additional-resources)  
-10. [Contributing](#contributing)  
-11. [License](#license)  
-12. [Final Note](#final-note)  
+10. [Contributing](#contributing)
+11. [Author](#author)
+12. [License](#license)  
+13. [Final Note](#final-note)  
 
 ## Project Summary
 
@@ -125,6 +126,14 @@ You can improve this project by:
 - Enhancing CAD design  
 - Improving control system  
 - Adding sensors or AI-based control
+
+## Author
+
+**Utkarsh Jadhav**  
+Mechanical Engineering Student | CAD Designer | Robotics Enthusiast  
+
+- GitHub: https://github.com/utkarsh-jadhav-mech
+- LinkedIn: https://www.linkedin.com/in/utkarsh-jadhav-mech
 
 ## License
 

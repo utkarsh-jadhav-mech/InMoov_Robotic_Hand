@@ -1,4 +1,4 @@
-### InMoov Robotic Hand Project - README
+# InMoov Robotic Hand Project - README
 <br>
 <img width="1919" height="1042" alt="Robotic Arm" src="https://github.com/user-attachments/assets/5d65cbb5-948e-4974-9447-d4a007506d26" />
 <br>
